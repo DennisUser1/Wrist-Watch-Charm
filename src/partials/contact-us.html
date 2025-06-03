@@ -1,4 +1,4 @@
- <!-- Section Contact-Us -->
+<!-- Section Contact-Us -->
 
 <section class="section contact" id="contact-us">
   <div class="container">
@@ -13,91 +13,50 @@
         <div class="label-field">
           <label for="user-name" class="visually-hidden">Name</label>
           <div class="contact-input-wrap">
-            <input
-              type="text"
-              name="user-name"
-              placeholder="Name"
-              class="contact-input"
-              id="user-name"
+            <input type="text" name="user-name" placeholder="Name" class="contact-input" id="user-name"
               pattern="[А-Яа-яa-zA-Z]{2,10}"
-              title="Имя пользователя должно быть из букв и быть длиной от 2 до 10 символов"
-              minlength="2"
-              required
-            />
+              title="Имя пользователя должно быть из букв и быть длиной от 2 до 10 символов" minlength="2" required />
           </div>
         </div>
 
         <div class="label-field">
           <label for="user-email" class="visually-hidden">Email</label>
           <div class="contact-input-wrap">
-            <input
-              type="email"
-              name="user-email"
-              placeholder="Email"
-              class="contact-input"
-              id="user-email"
-              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-              required
-            />
+            <input type="email" name="user-email" placeholder="Email" class="contact-input" id="user-email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required />
           </div>
         </div>
 
         <div class="label-field">
           <label for="user-tel" class="visually-hidden">Phone</label>
           <div class="contact-input-wrap">
-            <input
-              type="tel"
-              name="user-tel"
-              placeholder="+380"
-              class="contact-input"
-              id="user-tel"
-              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
-              title="+380-XX-XXX-XX-XX"
-              required
-            />
+            <input type="tel" name="user-tel" placeholder="+380" class="contact-input" id="user-tel"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" title="+380-XX-XXX-XX-XX" required />
           </div>
         </div>
 
         <div class="textarea-field">
           <label for="user-comment" class="visually-hidden">Comment</label>
-          <textarea
-            name="user-comment"
-            rows="5"
-            placeholder="Comment"
-            class="contact-textarea"
-            id="user-comment"
-          ></textarea>
+          <textarea name="user-comment" rows="5" placeholder="Comment" class="contact-textarea"
+            id="user-comment"></textarea>
         </div>
         <button class="contact-btn" type="submit">Send</button>
       </form>
 
       <picture>
-        <source
-          srcset="
-            1x,
-            2x
-          "
-          media="(min-width: 1280px)"
-        />
-        <source
-          srcset="
-            1x,
-            2x
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="
-            1x,
-            2x
-          "
-          media="(max-width: 767px)"
-        />
-        <img
-          src=""
-          alt="contact img"
-          class="contact-picture"
-        />
+        <source srcset="
+            ./img/contact/contact-img.png    1x,
+            ./img/contact/contact-img-2x.png 2x
+          " media="(min-width: 1280px)" />
+        <source srcset="
+            ./img/contact/contact-img-tab.png    1x,
+            ./img/contact/contact-img-tab-2x.png 2x
+          " media="(min-width: 768px)" />
+        <source srcset="
+            ./img/contact/contact-img-mob.png    1x,
+            ./img/contact/contact-img-mob-2x.png 2x
+          " media="(max-width: 767px)" />
+        <img src="./img/contact/contact-img-mob.png" alt="contact img" class="contact-picture" />
       </picture>
     </div>
   </div>
