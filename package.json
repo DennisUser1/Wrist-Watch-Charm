@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/project-WristWatch/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build --base=/project-WristWatch/ && git add dist && git subtree push --prefix dist origin gh-pages"
   },
   "author": "",
   "license": "ISC",
