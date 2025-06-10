@@ -4,8 +4,9 @@ import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig({
-  base: '/project-WristWatch/',
+  base: '/',
   root: 'src',
+  publicDir: '../public',
   build: {
     sourcemap: true,
     rollupOptions: {
