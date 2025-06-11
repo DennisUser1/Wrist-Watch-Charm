@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-WristWatch/",
+    "build": "vite build --base=/project-WristWatch/ --emptyOutDir",
     "preview": "vite preview",
     "deploy": "vite build --base=/project-WristWatch/ && git add dist && git subtree push --prefix dist origin gh-pages"
   },
