@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/wrist-watch-charm/ --emptyOutDir",
+    "build": "vite build --base=/Wrist-Watch-Charm/ --emptyOutDir",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },

@@ -4,7 +4,7 @@ import injectHTML from "vite-plugin-html-inject";
 import FullReload from "vite-plugin-full-reload";
 
 export default defineConfig({
-  base: "/wrist-watch-charm/",
+  base: "/Wrist-Watch-Charm/",
   root: "src",
   build: {
     sourcemap: true,
